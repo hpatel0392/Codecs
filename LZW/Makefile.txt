@@ -1,0 +1,17 @@
+CC =  gcc
+lib = -lX11
+exe = lab3
+flags = -g
+
+lab3: table.o lab3.o
+	$(CC) table.o lab3.o -o $(exe) $(lib) $(flags)
+
+table.o: table.c table.h
+	$(CC) -c table.c $(flags)
+
+lab3.o: lab3.c table.h
+	$(CC) $(flags) -c lab3.c
+
+clean:
+	rm -f *.o $(exe) core
+
