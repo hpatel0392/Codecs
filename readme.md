@@ -4,7 +4,7 @@ Lab3
 
 project includes:
 	table.h, table.c : Hash table used for dictionary
-	lab3.c:	main driver, contains the LZW algorithms
+	lzw.c:	main driver, contains the LZW algorithms
 	Makefile.txt: remove the extension, its just a Makefile
 	
 
@@ -13,6 +13,6 @@ To compile just use
 >> make
 
 Usage:
->> ./lab3 <input file> <output file> <'c' or 'd'>
+>> ./lzw <input file> <output file> <'c' or 'd'>
 
 'c' means compress and 'd' means decompress
