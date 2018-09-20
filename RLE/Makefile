@@ -1,9 +1,9 @@
 CC =  gcc
 lib = -lX11
-exe = lab2
+exe = rle
 
 all:
-	$(CC) lab2.c -o $(exe) $(lib)
+	$(CC) rle.c -o $(exe) $(lib)
 
 clean:
 	rm $(exe)
