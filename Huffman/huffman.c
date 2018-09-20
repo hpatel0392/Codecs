@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "lab4.h"
+#include "huffman.h"
 
 int main(int argc, char const *argv[])
 {
