@@ -3,9 +3,9 @@ ECE 4680 Spring 2018
 Lab3  
 
 project includes:  
-	1.  table.h, table.c : Hash table used for dictionary   
-	2.  lzw.c:	main driver, contains the LZW algorithms  
-	3.  Makefile.txt: remove the extension, its just a Makefile  
+1.  table.h, table.c : Hash table used for dictionary   
+2.  lzw.c:	main driver, contains the LZW algorithms  
+3.  Makefile 
 	
 To compile just use 
 > make
