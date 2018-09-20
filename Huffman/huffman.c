@@ -57,23 +57,7 @@ int main(int argc, char const *argv[])
 
 	combine(&T, &L); // Combine the List nodes until they are a single Tree
 	
-	//printtree(T,0);
-	/*
-	// while still nodes in the list
-	while(L) {
-		// combine two smallest nodes
-		combine(&T, &L);
-
-		//printf("\nTREE:\n%d\n(\"%c\":%d)(\"%c\":%d)\n", T->freq,T->left->symbol, T->left->freq,T->right->symbol, T->right->freq);
-
-		printf("\n");
-		printlist(L);
-	}
-
-	//printf("______________________________\n\n");
-	printtree(T,0);
-	*/
-
+	
 	// compress or decompress here 
 	// decompress
 	if(argv[1][1] == 'd'){
@@ -141,30 +125,6 @@ void combine(node **T, node **L){
 	if(*T == NULL){
 		*T = C;
 	}
-
-	/*
-	//printf("\nCOMBINED NODE:\n%d\n(\"%c\":%d)(\"%c\":%d)\n", C->freq,A->symbol, A->freq, B->symbol, B->freq);
-		
-	// if tree doesnt exist, set combined node to root
-	if (!(*T)) (*T) = C;
-	else {  // if tree does exist
-		// we have to create another node to combine existing tree
-		// with the combined node. test to see whose freq is larger.
-		if (C->freq > (*T)->freq){  // if C's is larger it goes on the right
-			A = (*T);
-			B = C;
-		}
-		else {  // if T's is larger, it goes on the right
-			A = C;
-			B = (*T);
-		}
-		// another combined parent node is created for the root
-		(*T) = (node *)calloc(1,sizeof(node));
-		(*T)->freq = A->freq + B->freq;
-		(*T)->is_leaf = 0;
-		(*T)->left = A;
-		(*T)->right = B;
-	}*/
 	
 }
 
