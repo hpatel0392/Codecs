@@ -10,9 +10,9 @@ project includes:
 
 **Note: rename Makefile.txt to Makefile assign server didn't allow it so I had to append .txt**
 To compile just use 
->> make
+> make
 
 Usage:
->> ./lzw <input file> <output file> <'c' or 'd'>
+> ./lzw <input file> <output file> <'c' or 'd'>
 
 'c' means compress and 'd' means decompress
