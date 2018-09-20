@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-g -Wall
 
-lab4: lab4.c lab4.h
-	$(CC) $(CFLAGS) -o lab4 lab4.c
+huffman: huffman.c huffman.h
+	$(CC) $(CFLAGS) -o huffman huffman.c
 clean: 
-	rm -f lab4 core
+	rm -f huffman core
