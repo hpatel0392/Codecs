@@ -1,5 +1,5 @@
-#ifndef LAB4_H
-#define LAB4_H
+#ifndef HUFFMAN_H
+#define HUFFMAN_H
 
 #include<stdio.h>
 
